@@ -14,6 +14,6 @@ handleArgs _ = error "Argument error"
 main :: IO ()
 main = do
   [w, t] <- liftM handleArgs getArgs
-  let lower_bound = ouncesToMilliliters (kilogramsToPounds w * 2.5) / t
+  let lower_bound = ouncesToMilliliters (kilogramsToPounds w * 2) / t
   let upper_bound = lower_bound * 1.25
   putStrLn $ show (round lower_bound) ++ "\t" ++ show (round upper_bound)
