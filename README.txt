@@ -9,6 +9,6 @@ Weight should be in kilograms, and interval is the number of hours between feedi
 
 Example: 
 
-./milky 3.4 3   <--- calculate for a 3.4kg baby being fed every three hour
+./milky 3.4 3   <--- calculate for a 3.4kg baby being fed every three hours
 
 TODO: Support for imperial units.
